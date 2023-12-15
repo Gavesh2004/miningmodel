@@ -1,0 +1,9 @@
+model_id: "stabilityai/stablelm-zephyr-3b"
+
+embeddings_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+chain_type: "stuff"
+
+pdf_files:
+  - "data/MinesAct1952.pdf"
+  - "data/Coal_Mines_Regulation_2017_Noti.pdf"
